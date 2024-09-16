@@ -1,0 +1,64 @@
+body {
+    color: black;
+    background:rgb(104, 17, 124);
+    margin: 2px;
+    font-family: "Jacques Francois Shadow", serif;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: solid 2px #e4d4e4;
+    padding: 20px;
+    font-size: 30px;
+    color: #e4d4e4;
+}
+
+.chamada{
+    background: #9e74d6;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+   margin-right: 3%;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.catalogo-de-musicas{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.catalogo{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.catalogo-de-musicas img{
+    opacity:0.7;
+    height: 200px;
+}
+
+.catalogo-de-musicas img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(44, 0, 44);
+}
+
+.catalogo h3{
+    color: #e4d4e4;
+}
